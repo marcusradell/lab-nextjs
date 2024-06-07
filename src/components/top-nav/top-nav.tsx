@@ -14,12 +14,6 @@ const NavLink = ({ text, href }: Props) => (
   </li>
 );
 
-const Home = () => "Home";
-
-const Media = () => "Media";
-
-const Contact = () => "Contact";
-
 export const TopNav = () => (
   <nav className="navbar bg-base-100">
     <Brand />
