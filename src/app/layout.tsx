@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en" data-theme="synthwave">
       <body className={inter.className}>
         <TopNav />
-        <main className="container">{children}</main>
+        <main className="container mx-auto px-4">{children}</main>
         <Footer />
       </body>
     </html>
